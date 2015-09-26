@@ -1,0 +1,47 @@
+a.test {
+	font-weight: bold;
+}
+#card{
+	margin: auto;
+	border-radius: 25px;
+    background: #8AC007;
+    padding: 20px; 
+    width: 200px;
+    height: 50%; 	
+    font-size: 250%;
+    color: white;
+
+    z-index:2000;
+	overflow:hidden;
+
+	transition-duration: 0.8s;
+	transition-property: transform;
+	
+}
+
+.rotate {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+}
+
+#rules{
+	word-wrap:normal;
+}
+body{
+	height:500px;
+}
+.container{
+	padding:5px;
+	border-style:solid;
+	height:100%;
+}
+
+div.subcontainer{
+	vertical-align:middle;
+	text-align:center;
+	height:50%;
+	border-style:solid;
+	border-width:1px;
+}
+
